@@ -20,11 +20,8 @@ colors = {
 # first star - gold
 turtle.color(colors["gold"])  # gold
 for i in range(5):
-    turtle.color(colors["gold"])
-    turtle.begin_fill()
     turtle.forward(100)
     turtle.right(144)
-    turtle.end_fill()
 
 
 # move turtle without drawing
